@@ -11,8 +11,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  bool _isSupport;
-  String _oaid;
+  bool? _isSupport;
+  String? _oaid;
 
   @override
   void initState() {
